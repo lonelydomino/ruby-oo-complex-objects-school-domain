@@ -74,9 +74,9 @@ Ta-da! When we first create the key and point it to a value of an empty array, w
 Here's an example of the desired behavior:
 
 ```ruby
-school.add_student("AC Slater", 9)
-school.add_student("Kelly Kapowski", 10)
-school.add_student("Screech", 11)
+    school.add_student("AC Slater", 9)
+    school.add_student("Kelly Kapowski", 10)
+    school.add_student("Screech", 11)
 school.roster
 # => {9 => ["Zach Morris", "AC Slater"], 10 => ["Kelly Kapowski"], 11 => ["Screech"]}
 ```
